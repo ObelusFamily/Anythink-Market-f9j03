@@ -8,6 +8,8 @@ To start the app use: `./start.sh` from the backend directory.
 
 Make sure your DB is up and running.
 
+Make sure you add .env file and adding MONGODB_URI path
+You may use .env.example as reference
 ## Dependencies
 
 - [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken) - For generating JWTs used by authentication
