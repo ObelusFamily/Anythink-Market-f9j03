@@ -10,6 +10,10 @@ Make sure your DB is up and running.
 
 Make sure you add .env file and adding MONGODB_URI path
 You may use .env.example as reference
+
+## Seeding
+Make sure you add mongodb path to .env
+Run seed.sh to insert items into mongo db collection
 ## Dependencies
 
 - [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken) - For generating JWTs used by authentication
